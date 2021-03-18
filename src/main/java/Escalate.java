@@ -15,7 +15,7 @@ public class Escalate {
      */
     public static String oneSwitchToRuleThemAll(int tagValueID) {
 
-        String email = "";
+        String email = null;
 
         switch (tagValueID) {
             // One From -> General
@@ -100,7 +100,7 @@ public class Escalate {
             case 31914: // Testing Center
             case 31807: // Tutoring (Academic Support Center)
 
-                // One Form -> Academic
+            // One Form -> Academic
             case 31952: // Access Control/Locks & Keys
             case 31945: // Custodial
             case 31946: // Facilities/Grounds
@@ -115,7 +115,9 @@ public class Escalate {
             case 31951: // Parking Services
             case 33597: // Plant Shop
 
-                // Other
+            // Other
+            default:
+                email = null;
         }
 
         return email;
