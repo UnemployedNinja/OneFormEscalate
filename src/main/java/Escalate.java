@@ -113,8 +113,8 @@ public class Escalate {
             case 31900: // Lost and Found Questions (Not Transferred)
                 email = "NULL";
                 break;
+                // TODO: Find me
             case 31901: // myBYUI Student Portal (New)
-                email = "nicholsr@byui.edu";
                 break;
             case 31903: // ORC (Outdoor Resource Center)
                 email = "orc@byui.edu";
@@ -215,11 +215,11 @@ public class Escalate {
             case 31800: // Math Dept.
                 email = "gohrj@byui.edu";
                 break;
+                // TODO: Find Me
             case 31801: // Nursing-On Campus (pre-License BSC)
-                email = "potterst@byui.edu";
                 break;
+            // TODO: Find Me
             case 31802: // Nursing-Online (RN to BSN)
-                email = "rnbsn@byui.edu";
                 break;
             case 31803: // Office of General Education (NOT ADVISING)
                 email = "klinglerg@byui.edu";
