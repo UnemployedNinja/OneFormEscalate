@@ -12,6 +12,7 @@ public class Main {
 //        ticket.setResponsibleUid(String);
 
         Escalate escalate = new Escalate();
-        String uid = escalate.oneSwitchToRuleThemAll(TAG_VALUE_ID);
+        String email = escalate.oneSwitchToRuleThemAll(TAG_VALUE_ID);
+        System.out.println(email);
     }
 }

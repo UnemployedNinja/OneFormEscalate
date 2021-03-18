@@ -10,10 +10,12 @@ public class Escalate {
 
     /**
      * One Switch To Rule Them All
+     * BSC Tag 1 link:
+     *     https://td.byui.edu/TDAdmin/fcb76cab-d63e-41d6-a1f0-34c67299d6bf/48/Attributes/AttributeEdit.aspx?CMPID=9&ATTID=10333
      */
     public static String oneSwitchToRuleThemAll(int tagValueID) {
 
-        String uid = "";
+        String email = "";
 
         switch (tagValueID) {
             // One From -> General
@@ -51,7 +53,7 @@ public class Escalate {
             case 31897: // International Services
             case 31898: // International Study Program
             case 31900: // Lost and Found Questions (Not Transferred)
-                uid = "NULL";
+                email = "NULL";
             case 31901: // myBYUI Student Portal (New)
             case 31903: // ORC (Outdoor Resource Center)
             case 34757: // Pathway Connect Issues
@@ -99,23 +101,23 @@ public class Escalate {
             case 31807: // Tutoring (Academic Support Center)
 
                 // One Form -> Academic
-            case : // Access Control/Locks & Keys
-            case : // Custodial
-            case : //  Facilities/Grounds
-            case : // Fleet Services
-            case : // Gardens
-            case : // Hart Equipment Room/ Pool/ Fitness Center
-            case : //     Library
-            case : // Livestock Center
-            case : //  Mail Services
-            case : // Maps
-            case : //         Orchard
-            case : //  Parking Services
-            case : // Plant Shop
+            case 31952: // Access Control/Locks & Keys
+            case 31945: // Custodial
+            case 31946: // Facilities/Grounds
+            case 31947: // Fleet Services
+            case 33595: // Gardens
+            case 31948: // Hart Equipment Room/ Pool/ Fitness Center
+            case 31899: // Library
+            case 33598: // Livestock Center
+            case 31949: // Mail Services
+            case 31950: // Maps
+            case 33596: // Orchard
+            case 31951: // Parking Services
+            case 33597: // Plant Shop
 
                 // Other
         }
 
-        return uid;
+        return email;
     }
 }
