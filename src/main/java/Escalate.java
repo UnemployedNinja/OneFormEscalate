@@ -9,7 +9,7 @@ public class Escalate {
      * https://td.byui.edu/TDAdmin/fcb76cab-d63e-41d6-a1f0-34c67299d6bf/48/Attributes/AttributeEdit.aspx?CMPID=9&ATTID=10333
      *
      * Excel doc Link:
-     * https://webmailbyui.sharepoint.com/:x:/r/sites/groupbyu-idahosupportcenter/_layouts/15/doc2.aspx?sourcedoc=%7B71299823-416F-45D8-A95A-BF7E0F8EB255%7D&file=General%20Level%202%20Emails%20From%20Tags.xlsx&action=default&mobileredirect=true&cid=a529ebdb-c1ce-4b52-b85e-6b411d2cf809
+     * https://webmailbyui.sharepoint.com/:x:/r/sites/groupbyu-idahosupportcenter/_layouts/15/Doc.aspx?sourcedoc=%7B71299823-416F-45D8-A95A-BF7E0F8EB255%7D&file=General%20Level%202%20Emails%20From%20Tags.xlsx&action=default&mobileredirect=true&cid=a529ebdb-c1ce-4b52-b85e-6b411d2cf809
      */
     public static String oneSwitchToRuleThemAll(int tagValueID) {
 
@@ -170,9 +170,6 @@ public class Escalate {
             case 31918: // University Texting
                 email = "uroffice@byui.edu";
                 break;
-            case 31823: // University Store (non-web) Charges
-                email = "service@byuistore.com";
-                break;
 
             // One Form -> Academic
             case 31788: // Art Dept.
@@ -282,6 +279,64 @@ public class Escalate {
             case 33597: // Plant Shop
                 email = "pruittm@byui.edu";
                 break;
+
+            // One Form -> University Store
+            case 31823: // University Store (non-web) Charges
+                email = "service@byuistore.com";
+                break;
+            case 31809: // Auto Access
+                email = "service@byuistore.com";
+                break;
+            case 31810: // Book Buy Back
+                email = "service@byuistore.com";
+                break;
+            case 31811: // Book Dept. (Other)
+                email = "service@byuistore.com";
+                break;
+            case 31812: // Book Rentals
+                email = "service@byuistore.com";
+                break;
+            case 31813: // Book Reservations
+                email = "service@byuistore.com";
+                break;
+            case 31814: // Cellular Dept.
+                email = null;
+                break;
+            case 31815: // Clothing Dept.
+                email = "haeberlej@byui.edu";
+                break;
+            case 31816: // Dining Dollars
+                email = "Bookstoresecretary@byui.edu";
+                break;
+            case 32065: // E-Books
+                email = "service@byuistore.com";
+                break;
+            case 31817: // General University Store Hours & Location
+                email = "Bookstoresecretary@byui.edu";
+                break;
+            case 31818: // Gift Dept.
+                email = "harrisa@byui.edu";
+                break;
+            case 31819: // International Textbooks
+                email = "service@byuistore.com";
+                break;
+            case 31820: // Request to speak with representative
+                email = "Bookstoresecretary@byui.edu";
+                break;
+            case 31821: // Supplies Dept.
+                email = "ericksonh@byui.edu";
+                break;
+            case 31822: // Technology Dept.
+                email = "swinneyj@byui.edu";
+                break;
+            case 31824: // Vendor
+                email = "Bookstoresecretary@byui.edu";
+                break;
+            case 31825: // Web Dept.
+                email = "service@byuistore.com";
+                break;
+
+            // Campus Advising
 
             // Other
             default:
