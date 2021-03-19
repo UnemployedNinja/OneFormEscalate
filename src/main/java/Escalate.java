@@ -111,7 +111,7 @@ public class Escalate {
                 email = "traveladmin@byui.edu";
                 break;
             case 31900: // Lost and Found Questions (Not Transferred)
-                email = "NULL";
+                email = null;
                 break;
             case 31901: // myBYUI Student Portal (New)
                 email = "nicholsr@byui.edu";
@@ -168,6 +168,9 @@ public class Escalate {
                 email = "uroffice@byui.edu";
                 break;
             case 31918: // University Texting
+                email = "uroffice@byui.edu";
+                break;
+            case 31823: // University Store (non-web) Charges
                 email = "service@byuistore.com";
                 break;
 

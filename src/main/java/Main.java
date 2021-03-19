@@ -1,10 +1,17 @@
-public class Main {
+import java.util.Scanner;
 
-    public static final int TAG_VALUE_ID = 31877;
+public class Main {
 
     public static void main(String[] args) {
 
-        String email = Escalate.oneSwitchToRuleThemAll(TAG_VALUE_ID);
-        System.out.println(email);
+        int id = 0;
+        while(id != 1) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter ID: ");
+            id = sc.nextInt();
+
+            String email = Escalate.oneSwitchToRuleThemAll(id);
+            System.out.println(email);
+        }
     }
 }
