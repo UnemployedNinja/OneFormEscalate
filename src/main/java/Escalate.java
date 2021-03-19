@@ -113,15 +113,14 @@ public class Escalate {
             case 31900: // Lost and Found Questions (Not Transferred)
                 email = "NULL";
                 break;
-                // TODO: Find me
             case 31901: // myBYUI Student Portal (New)
+                email = "nicholsr@byui.edu";
                 break;
             case 31903: // ORC (Outdoor Resource Center)
                 email = "orc@byui.edu";
                 break;
-                // TODO: Find email
             case 34757: // Pathway Connect Issues
-                email = "https://www.byupathway.org/help/contact-us";
+                email = null;
                 break;
             case 31805: // Planetarium
                 email = "scheduling@byui.edu";
@@ -141,8 +140,8 @@ public class Escalate {
             case 31908: // Scheduling Office
                 email = "scheduling@byui.edu";
                 break;
-                // TODO: Scroll Office
             case 33593: // Scroll Office
+                email = "scrollads@byui.edu";
                 break;
             case 31909: // Sexual Misconduct
                 email = "titleix@byui.edu";
@@ -215,11 +214,11 @@ public class Escalate {
             case 31800: // Math Dept.
                 email = "gohrj@byui.edu";
                 break;
-                // TODO: Find Me
             case 31801: // Nursing-On Campus (pre-License BSC)
+                email = "potterst@byui.edu";
                 break;
-            // TODO: Find Me
             case 31802: // Nursing-Online (RN to BSN)
+                email = "rnbsn@byui.edu";
                 break;
             case 31803: // Office of General Education (NOT ADVISING)
                 email = "klinglerg@byui.edu";

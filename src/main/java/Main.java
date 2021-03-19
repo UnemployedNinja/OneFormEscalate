@@ -4,8 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Escalate escalate = new Escalate();
-        String email = escalate.oneSwitchToRuleThemAll(TAG_VALUE_ID);
+        String email = Escalate.oneSwitchToRuleThemAll(TAG_VALUE_ID);
         System.out.println(email);
     }
 }
